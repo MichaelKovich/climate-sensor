@@ -1,0 +1,18 @@
+{
+  "name": "climate-sensor",
+  "version": "1.0.0",
+  "description": "An ambient temperature and humidity sensor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "t2 run index.js"
+  },
+  "repository": "git://github.com/MichaelKovich/climate-sensor.git",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.18.0",
+    "climate-si7020": "^0.1.1",
+    "moment-timezone": "^0.5.23",
+    "tessel": "^0.3.25"
+  }
+}
